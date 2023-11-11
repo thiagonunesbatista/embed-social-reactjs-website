@@ -1,3 +1,9 @@
+import { Container } from './Container'
+
 export const Navbar = () => {
-  return <nav>Navbar</nav>
+  return (
+    <nav>
+      <Container>Navbar</Container>
+    </nav>
+  )
 }
