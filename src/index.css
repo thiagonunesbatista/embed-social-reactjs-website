@@ -6,6 +6,13 @@
 }
 
 @font-face {
+  font-family: 'Roboto-700';
+  src: url('./fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Roboto';
   src: url('./fonts/Roboto/Roboto-Regular.ttf') format('truetype');
   font-weight: normal;

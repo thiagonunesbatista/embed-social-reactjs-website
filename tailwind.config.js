@@ -11,7 +11,8 @@ export default {
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
-        'roboto-900': ['Roboto-900', 'sans-serif']
+        'roboto-900': ['Roboto-900', 'sans-serif'],
+        'roboto-700': ['Roboto-700', 'sans-serif']
       }
     }
   },
