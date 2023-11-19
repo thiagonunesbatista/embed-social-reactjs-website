@@ -15,7 +15,7 @@ export const Heading: React.FC<HeadingProps> = ({
   if (type === 'h1') {
     return (
       <h1
-        className={`text-black text-6xl font-roboto-900 ${className}`}
+        className={`text-black text-4xl md:text-6xl font-roboto-900 ${className}`}
         {...props}
       >
         {children}
@@ -25,7 +25,10 @@ export const Heading: React.FC<HeadingProps> = ({
 
   if (type === 'h2') {
     return (
-      <h2 className={`text-black text-5xl font-roboto ${className}`} {...props}>
+      <h2
+        className={`text-black text-3xl md:text-5xl font-roboto ${className}`}
+        {...props}
+      >
         {children}
       </h2>
     )
