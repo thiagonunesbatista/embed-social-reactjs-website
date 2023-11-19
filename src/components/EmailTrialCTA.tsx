@@ -8,7 +8,7 @@ export const EmailTrialCTA = () => {
         placeholder='Enter your email...'
         className='outline-none py-3  md:py-4 px-3 bg-white text-gray-450 w-full max-w-[250px]'
       />
-      <StartTrialButton hasHover={false} />
+      <StartTrialButton hasHover={false} hasRoundedCorners={false} />
     </div>
   )
 }

@@ -28,7 +28,7 @@ export const Navbar = () => {
 
   return (
     <nav className='sticky top-0 bg-white shadow-md z-[1000]'>
-      <Container className='flex justify-between items-center p-2.5 gap-7'>
+      <Container className='flex justify-between items-center p-2.5 gap-7 2xl:px-0'>
         <div className='flex gap-2.5 items-center'>
           <img src={Logo} alt='logo do Embedsocial' width={40} />
           <p className='font-roboto-900 text-lg'>embedsocial</p>
