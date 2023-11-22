@@ -37,7 +37,7 @@ const data = [
 export const Card = () => {
   return (
     <div className="grid grid-cols-5 gap-5 justify-center  max-lg:grid-cols-3  max-sm:grid-cols-1 ">
-      {data.map((data) => {
+    {data.map((data) => {
         return (
           <div className="w-full py-[18px] rounded shadow-lg bg-white flex flex-col items-center max-sm:mx-auto max-lg:mx-auto max-lg:max-w-[16rem]">
             {data.icons}
