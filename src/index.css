@@ -1,27 +1,43 @@
 @font-face {
-  font-family: 'Roboto-900';
-  src: url('./fonts/Roboto/Roboto-Black.ttf') format('truetype');
+  font-family: "Roboto-900";
+  src: url("./fonts/Roboto/Roboto-Black.ttf") format("truetype");
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto-700';
-  src: url('./fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+  font-family: "Roboto-700";
+  src: url("./fonts/Roboto/Roboto-Bold.ttf") format("truetype");
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('./fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  font-family: "Roboto";
+  src: url("./fonts/Roboto/Roboto-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: white;
+}
+
+.swiper-pagination-bullet {
+  border: solid white 2px;
+  background-color: #121727;
+  width: 1rem;
+  height: 1rem;
+}
+
+.swiper-pagination {
+  position: unset;
+  margin-top: 1rem;
 }
 
 @tailwind base;
