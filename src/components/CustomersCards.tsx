@@ -47,11 +47,11 @@ const data = [
 
 export const CustomersCards = () => {
   return (
-    <div className="grid grid-cols-4 gap-5 justify-center  max-lg:grid-cols-3  max-sm:grid-cols-1 ">
+    <div className="grid grid-cols-4 gap-5 justify-center max-lg:grid-cols-2 max-sm:grid-cols-1 ">
       {data.map((data) => {
         return (
-          <div className="flex flex-col justify-between w-full h-full rounded-2xl shadow-xl bg-white p-7">
-            <div className="grid grid-row-3 items-start gap-3 ">
+          <div className="flex flex-col justify-between w-full h-full rounded-2xl shadow-xl bg-white p-7 max-lg:w-[19rem] max-sm:w-[21rem]">
+            <div className="grid grid-row-3 items-start gap-3">
               <img src={data.src} />
               <div className="flex">
                 <h1 className="font-bold text-lg">{data.title}</h1>
