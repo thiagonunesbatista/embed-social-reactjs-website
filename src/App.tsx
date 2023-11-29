@@ -6,13 +6,10 @@ const App = () => {
       <Navbar />
       <Hero />
       <StorySaver />
-      <ConversionGrowth />
       <TemplateFeature />
-      <MainFeatures />
       <SocialProof />
       <CustomersReview />
       <Pricing />
-      <Partners />
       <EmailCapture />
       <Footer />
     </>

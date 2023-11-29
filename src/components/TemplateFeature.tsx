@@ -10,7 +10,7 @@ import "swiper/css/scrollbar";
 export const TemplateFeature = () => {
   return (
     <section className="bg-[#111827]">
-      <Container className="h-[61rem] flex flex-col justify-center gap-11">
+      <Container className="h-[61rem] flex flex-col justify-center gap-11 px-2">
         <div className="text-white flex flex-col items-center gap-6 h-auto">
           <h1 className="font-roboto-900 text-6xl max-w-xl text-center max-sm:text-4xl">
             Get started with one of our templates

@@ -197,7 +197,7 @@ export const Pricing = () => {
   ])
 
   return (
-    <section className='bg-gray-150 py-20 md:py-[150px] px-10'>
+    <section className='bg-gray-150 pt-20 md:pt-[150px] px-10'>
       <Container className='flex flex-col items-center'>
         <div className='flex flex-col gap-5 mb-10 md:mb-20'>
           <Heading type='h2' className='text-center'>

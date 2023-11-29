@@ -7,7 +7,7 @@ import Person from '../assets/people/person-1.jpg'
 
 export const SocialProof = () => {
   return (
-    <section className='flex justify-center px-4 2xl:px-0'>
+    <section className='flex justify-center pt-8 px-4 2xl:px-0'>
       <Container className='rounded-2xl bg-gray-850 flex flex-col lg:flex-row o gap-4 lg:gap-24 overflow-hidden lg:justify-between max-w-[1300px]'>
         <div className='pt-3 lg:py-6 px-6 lg:px-11 text-white max-w-[530px] lg:flex lg:justify-center lg:flex-col'>
           <Heading type='h2' className='text-white mb-5'>
